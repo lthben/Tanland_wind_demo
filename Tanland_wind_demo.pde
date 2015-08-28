@@ -1,9 +1,9 @@
 /*
-Author: Benjamin Low (benjamin.low@digimagic.com.sg)
- Date: 13 Aug 2015
+ Author: Benjamin Low (benjamin.low@digimagic.com.sg)
+ Last update: 28 Aug 2015
  Description: Demo for the wind sensor from Modern Devices. For Tanland heat wave 
  installation. Input is the wind speed reading from Arduino connected to the sensor.
- Raw reading is 330-500. Byte is 0-255. So the Arduino sends "raw_reading-300".
+ Assumes raw reading from Arduino is 330-500 and that Arduino sends "raw_reading-300".
  Note that the Nyquist sampling theorem must hold for this to work. This Processing
  sketch must sample at more than twice the frequency of the data being sent from
  Arduino.
